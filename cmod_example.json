@@ -1,0 +1,209 @@
+{
+    "settings": {
+        "credit": true,
+        "title": "My Text Adventure",
+        "author": "Wooferz",
+        "versions_supported": ["1-cmodded"],
+        "starting_inventory": ["5 Dollars"]
+    },
+    "game": {
+        "text": "You see a [yellow]waffle[reset], what do you do?",
+        "option_text": false,
+        "item_giving": "none",
+        "item_required": "none",
+        "item_taking": "none",
+        "children": [{
+            "text": "You ate a waffle.",
+            "option_text": "Eat the waffle",
+            "item_giving": "none",
+            "item_required": "none",
+            "item_taking": "none",
+            "children": [{
+                "text": "You went outside the house, you see a dock.",
+                "option_text": "Go out the house",
+                "item_giving": "none",
+                "item_required": "none",
+                "item_taking": "none",
+                "children": [
+                    {
+                        "text": "You went to the dock and saw a man and a boat",
+                        "option_text": "Go to the dock",
+                        "item_giving": "none",
+                        "item_required": "none",
+                        "item_taking": "none",
+                        "children": [
+                            {
+                                "text": "You talked to the man\nThe Conversation:\n[YOU] I love waffles\n[HIM] I want to kill someone\n[YOU] Ok",
+                                "option_text": "Talk to man",
+                                "item_giving": "none",
+                                "item_required": "none",
+                                "item_taking": "none",
+                                "children": [
+                                    {
+                                        "option_text": "Run away",
+                                        "text": "You ran away and into a forest",
+                                        "item_giving": "none",
+                                        "item_required": "none",
+                                        "item_taking": "none",
+                                        "children": [
+                                            {
+                                                "option_text": "Explore Foreset",
+                                                "text": "You explore the forest and see the Waffle God",
+                                                "item_giving": "none",
+                                                "item_required": "none",
+                                                "item_taking": "none",
+                                                "children": [
+                                                    {
+                                                        "text": "You speak to the Waffle God, and he gives you 5 golden waffles.",
+                                                        "option_text": "Speak to the god",
+                                                        "item_giving": "5 Golden Waffles",
+                                                        "item_required": "none",
+                                                        "item_taking": "none"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "option_text": "Stay still and do nothing",
+                                        "text": "You stood still and he killed you\n\n[red]You died",
+                                        "item_giving": "none",
+                                        "item_required": "none",
+                                        "item_taking": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "You ignored the man and boarded the boat\nYou see an island in the distance",
+                                "option_text": "Ignore the man, and board the boat.",
+                                "item_giving": "none",
+                                "item_required": "none",
+                                "item_taking": "none",
+                                "children": [
+                                    {
+                                        "option_text": "Sail to the island",
+                                        "text": "Sailing to the island took 2 hours\nYou have no food\nYou see a banana tree\n",
+                                        "item_giving": "none",
+                                        "item_required": "none",
+                                        "item_taking": "none",
+                                        "children": [
+                                            {
+                                                "option_text": "Go to tree and eat some bananas",
+                                                "text": "While going to the tree you tripped on a rock\nYou are injured",
+                                                "item_giving": "none",
+                                                "item_required": "none",
+                                                "item_taking": "none",
+                                                "children": [
+                                                    {
+                                                        "option_text": "Stand up and walk it of",
+                                                        "text": "You stood up, and you are fine.",
+                                                        "item_giving": "none",
+                                                        "item_required": "none",
+                                                        "item_taking": "none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "option_text": "Do nothing",
+                                                "text": "You did nothing and ended up dying of hunger\n\n[red]You died",
+                                                "item_giving": "none",
+                                                "item_required": "none",
+                                                "item_taking": "none"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "option_text": "Ignore the dock.",
+                        "text": "You ignored the dock and went to the store.",
+                        "item_giving": "none",
+                        "item_required": "none",
+                        "item_taking": "none",
+                        "children": [
+                            {
+                                "option_text": "Buy a chair? (5 Dollars Required)",
+                                "text": "You bought a chair and went home to play games! The cashier gave you 3 dollars change.",
+                                "item_giving": "3 Dollars",
+                                "item_required": "5 Dollars",
+                                "item_taking": "5 Dollars",
+                                "children": [
+                                    {
+                                        "option_text": "Go home to play games.",
+                                        "text": "You went home to play games. You later [red]died of hunger.[reset]",
+                                        "item_giving": "none",
+                                        "item_required": "none",
+                                        "item_taking": "none"
+                                    }
+                                ]
+                            },
+                            {
+                                "option_text": "Buy some food? (5 Dollars Required)",
+                                "text": "You bought some food and went home to play games! The cashier gave no change and proceeded to run off.",
+                                "item_giving": "Steak",
+                                "item_required": "5 Dollars",
+                                "item_taking": "5 Dollars",
+                                "children": [
+                                    {
+                                        "option_text": "Go home to play games.",
+                                        "text": "You went home to play games. You later went really hungry and ate the steak. [green]You Won! [yellow]cmodded ending[reset]",
+                                        "item_giving": "Trophee",
+                                        "item_required": "none",
+                                        "item_taking": "none"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "You stayed in the house and played Waffle: The Game\nYou start feeling more hungry.",
+                "option_text": "Stay in house and play game",
+                "children": [
+                    {
+                        "text": "unreachable.",
+                        "option_text": "Eat food (Steak Required",
+                        "item_giving": "none",
+                        "item_required": "none",
+                        "item_taking": "none"
+                    },
+                    {
+                        "option_text": "Don't eat food and continue playing",
+                        "text": "You didn't eat food",
+                        "item_giving": "none",
+                        "item_required": "none",
+                        "item_taking": "none"
+                    }
+                ]
+            }
+        ]
+        },
+        {
+            "text": "You Ignored The Waffle, you died of hunger\n\n[red]You died",
+            "option_text": "Ignore the waffle",
+            "item_giving": "none",
+            "item_required": "none",
+            "item_taking": "none"
+        },
+        {
+            "text": "You picked up a [yellow]Waffle[reset]. It has been added to your inventory. You realise there was a [yellow]Pancake[reset] underneath.",
+            "option_text": "Pick up the waffle.",
+            "item_giving": "Waffle",
+            "item_required": "none",
+            "item_taking": "none",
+            "children": [
+                {
+                    "text": "You picked up the [yellow]Pancake[reset]. Your waffle elders see you and banish you. You now need to survive...",
+                    "option_text": "Pick up pancake.",
+                    "item_giving": "Pancake",
+                    "item_required": "none",
+                    "item_taking": "none"
+                }
+            ]
+        }
+    ]
+    }
+}

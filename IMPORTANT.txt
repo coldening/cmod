@@ -1,0 +1,23 @@
+CREDITS
+Original Dev: Wooferz
+Modded By: coldening
+
+This mod is completely free to use IF you credit Wooferz and me (coldening). 
+Otherwise please do not use or mod this version without credit. This also goes to taking code.
+I am fine with all of this above IF and only if you credit Wooferz and I.
+
+  .------,
+,'_____,'|
+|      | |
+| //   | ;
+|______|'._
+   `._     `;
+      `-._.'
+
+MORE INFO
+If you are trying to make a text adventure for this the version you need to use is 1-cmodded.
+If it is not working make sure in the versions specified you have 1-cmodded otherwise it will say
+that this text adventure is not supported for your version. This is very important for a working text adventure.
+
+ENDINGS
+The current endings in this version are cut offs to routes or the cmodded ending. Try to find it :)
