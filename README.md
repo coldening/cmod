@@ -1,2 +1,5 @@
 # cmod
-Generates text adventure from settings file. Modded by coldening.
+Generates text adventure from settings file.
+
+Original by Wooferz: https://github.com/woooferz/text-adventure-gen
+Modded by coldening
